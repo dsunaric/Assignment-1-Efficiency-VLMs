@@ -73,3 +73,7 @@ Image preprocessing: no preprocessing needed, all images sizes in the Coco val 2
 
 ### 2.7. Hyper-Parameters
 Max token counts used: 5-10-15-20-25-30-35-40-45-50
+
+## 3. Results
+- All quatitative results are collected in a seperate notebook file: [Results Notebook File](Results_Analysis.ipynb)
+- A full report is available here: [Report](report.pdf)
