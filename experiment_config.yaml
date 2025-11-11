@@ -33,7 +33,7 @@ dataset:
   preprocessing: "None (all images < 1024px)"
 
 hyperparameters:
-  note: "No custom hyperparameters used beyond quantization settings."
+ token: "5-50 step:5"
 
 experiments:
   - name: "Baseline FP16"
