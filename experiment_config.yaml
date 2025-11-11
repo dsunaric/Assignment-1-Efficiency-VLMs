@@ -1,0 +1,84 @@
+# experiment_config.yaml
+# Configuration file for "Evaluating Efficient Vision Language Models (VLMs)"
+# TU Wien - Introduction to Computational Sustainability, WS 2025
+
+project:
+  name: "Evaluating Efficient Vision Language Models (VLMs)"
+  course: "191.021 Introduction to Computational Sustainability"
+  semester: "Winter 2025"
+  students:
+    - Patrick Ennemoser
+    - Dragana Sunaric
+    - Daniel Martin Pühringer
+
+runtime:
+  environment: "Google Colab Pro"
+  gpu: "NVIDIA T4"
+  vram_gb: 15
+  python_version: "3.12.12"
+
+model:
+  name: "LLaVA-1.5"
+  description: "Multimodal LLM integrating a ViT vision encoder and LLaMA-based language decoder"
+  source: "https://llava-vl.github.io/"
+
+quantizer:
+  library: "BitsAndBytes"
+  source: "https://github.com/TimDettmers/bitsandbytes"
+
+dataset:
+  name: "COCO 2017 Validation"
+  source: "https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset"
+  subset_indices: "1–100"
+  preprocessing: "None (all images < 1024px)"
+  seed: 42
+
+hyperparameters:
+  note: "No custom hyperparameters used beyond quantization settings."
+
+experiments:
+  - name: "Baseline FP16"
+    colab_notebook: "https://colab.research.google.com/drive/1B_Fx7Wp7Eza_O8QZClDg8-R1Z033BlnE?usp=sharing"
+    quantization:
+      applied: false
+      description: "No quantization applied; full precision (FP16) model."
+    precision_per_module:
+      vision_encoder: "FP16"
+      language_model: "FP16"
+      attention_mlp_layers: "FP16"
+      activations: "FP16"
+
+  - name: "Weight-only 8-bit"
+    colab_notebook: "https://colab.research.google.com/drive/1WtK9vDrSsb6iOyisC0QKNbG8-_8KvsBd?usp=sharing"
+    quantization:
+      applied: true
+      method: "LLM.int8()"
+      description: "Quantizes only attention and MLP weights of the language model to INT8 using BitsAndBytes."
+    precision_per_module:
+      vision_encoder: "FP16"
+      language_model: "INT8 (weights only)"
+      attention_mlp_layers: "INT8"
+      activations: "FP16"
+
+  - name: "Quantized Vision Tower"
+    colab_notebook: "https://colab.research.google.com/drive/1zjTEqyJk8DRfc8iG29zNU0QBCbUsMQvB?usp=sharing"
+    quantization:
+      applied: true
+      method: "linear8"
+      description: "Quantizes the ViT vision encoder to INT8 using BitsAndBytes; language model remains FP16."
+    precision_per_module:
+      vision_encoder: "INT8"
+      language_model: "FP16"
+      attention_mlp_layers: "FP16"
+      activations: "FP16"
+
+metrics:
+  - quality: "CIDEr score"
+  - efficiency:
+      - "VRAM (torch.cuda.memory.max_memory_allocated)"
+      - "Latency per image"
+      - "Throughput (images/sec)"
+      - "Model size"
+  - energy: 
+      description: "CO2eq emissions estimated via CodeCarbon (using nvidia-smi)."
+
