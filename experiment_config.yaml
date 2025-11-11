@@ -29,9 +29,8 @@ quantizer:
 dataset:
   name: "COCO 2017 Validation"
   source: "https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset"
-  subset_indices: "1–100"
+  subset_indices: "1–100 (sorted)"
   preprocessing: "None (all images < 1024px)"
-  seed: 42
 
 hyperparameters:
   note: "No custom hyperparameters used beyond quantization settings."
