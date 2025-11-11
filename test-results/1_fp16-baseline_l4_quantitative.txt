@@ -1,0 +1,73 @@
+=== Final Results from FP16 (Baseline); November 11, 12:10 ===
+[
+    {
+        "tokens": 5,
+        "avg_latency": 0.4590190808599982,
+        "throughput": 2.1785586736970575,
+        "num_images": 100,
+        "cider": 0.5607021713631289
+    },
+    {
+        "tokens": 10,
+        "avg_latency": 0.7498392833300067,
+        "throughput": 1.333619113097195,
+        "num_images": 100,
+        "cider": 0.8278957691584425
+    },
+    {
+        "tokens": 15,
+        "avg_latency": 1.0523788550800055,
+        "throughput": 0.9502281380634321,
+        "num_images": 100,
+        "cider": 0.8091961363695046
+    },
+    {
+        "tokens": 20,
+        "avg_latency": 1.2852118809899888,
+        "throughput": 0.778081820430813,
+        "num_images": 100,
+        "cider": 0.6529524908541856
+    },
+    {
+        "tokens": 25,
+        "avg_latency": 1.3920339594900224,
+        "throughput": 0.7183732790300276,
+        "num_images": 100,
+        "cider": 0.5894147380125986
+    },
+    {
+        "tokens": 30,
+        "avg_latency": 1.4369794770399904,
+        "throughput": 0.6959041628485071,
+        "num_images": 100,
+        "cider": 0.5742950005355556
+    },
+    {
+        "tokens": 35,
+        "avg_latency": 1.4748873394199973,
+        "throughput": 0.6780178887380321,
+        "num_images": 100,
+        "cider": 0.568369933456562
+    },
+    {
+        "tokens": 40,
+        "avg_latency": 1.505982728829979,
+        "throughput": 0.6640182392907755,
+        "num_images": 100,
+        "cider": 0.5667889365651496
+    },
+    {
+        "tokens": 45,
+        "avg_latency": 1.5287846583799956,
+        "throughput": 0.6541143610504754,
+        "num_images": 100,
+        "cider": 0.5663516778417397
+    },
+    {
+        "tokens": 50,
+        "avg_latency": 1.5483028902100022,
+        "throughput": 0.6458684578599256,
+        "num_images": 100,
+        "cider": 0.5662981434565942
+    }
+]

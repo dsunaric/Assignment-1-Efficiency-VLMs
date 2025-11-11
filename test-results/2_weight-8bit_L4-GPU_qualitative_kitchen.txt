@@ -1,0 +1,54 @@
+=== Qualitative Results from Weight-only INT8; November 11, 13:58 ===
+
+--- Evaluating for max_new_tokens = 5 ---
+Ground truth captions: {139: ['A woman stands in the dining area at the table.', 'A room with chairs, a table, and a woman in it.', 'A woman standing in a kitchen by a window', 'A person standing at a table in a room.', 'A living area with a television and a table']}
+Latency: 0.967 seconds
+Generated caption: A woman is sitting at
+
+--- Evaluating for max_new_tokens = 10 ---
+Latency: 1.732 seconds
+Generated caption: A woman is sitting at a dining table in
+
+--- Evaluating for max_new_tokens = 15 ---
+Latency: 2.495 seconds
+Generated caption: A woman is sitting at a dining table in a kitchen, with a
+
+--- Evaluating for max_new_tokens = 20 ---
+Latency: 3.186 seconds
+Generated caption: A woman is sitting at a dining table in a kitchen, with a potted plant nearby.
+
+--- Evaluating for max_new_tokens = 25 ---
+Latency: 3.948 seconds
+Generated caption: A woman is sitting at a dining table in a kitchen, with a potted plant nearby. The table is surrounded by
+
+--- Evaluating for max_new_tokens = 30 ---
+Latency: 4.675 seconds
+Generated caption: A woman is sitting at a dining table in a kitchen, with a potted plant nearby. The table is surrounded by chairs, and there
+
+--- Evaluating for max_new_tokens = 35 ---
+Latency: 5.306 seconds
+Generated caption: A woman is sitting at a dining table in a kitchen, with a potted plant nearby. The table is surrounded by chairs, and there is a TV in the
+
+--- Evaluating for max_new_tokens = 40 ---
+Latency: 6.119 seconds
+Generated caption: A woman is sitting at a dining table in a kitchen, with a potted plant nearby. The table is surrounded by chairs, and there is a TV in the background. The kitchen also
+
+--- Evaluating for max_new_tokens = 45 ---
+Latency: 6.849 seconds
+Generated caption: A woman is sitting at a dining table in a kitchen, with a potted plant nearby. The table is surrounded by chairs, and there is a TV in the background. The kitchen also features a refriger
+
+--- Evaluating for max_new_tokens = 50 ---
+Latency: 7.557 seconds
+Generated caption: A woman is sitting at a dining table in a kitchen, with a potted plant nearby. The table is surrounded by chairs, and there is a TV in the background. The kitchen also features a refrigerator, a clock,
+
+=== Captions for each token count ===
+[5 tokens]: A woman is sitting at
+[10 tokens]: A woman is sitting at a dining table in
+[15 tokens]: A woman is sitting at a dining table in a kitchen, with a
+[20 tokens]: A woman is sitting at a dining table in a kitchen, with a potted plant nearby.
+[25 tokens]: A woman is sitting at a dining table in a kitchen, with a potted plant nearby. The table is surrounded by
+[30 tokens]: A woman is sitting at a dining table in a kitchen, with a potted plant nearby. The table is surrounded by chairs, and there
+[35 tokens]: A woman is sitting at a dining table in a kitchen, with a potted plant nearby. The table is surrounded by chairs, and there is a TV in the
+[40 tokens]: A woman is sitting at a dining table in a kitchen, with a potted plant nearby. The table is surrounded by chairs, and there is a TV in the background. The kitchen also
+[45 tokens]: A woman is sitting at a dining table in a kitchen, with a potted plant nearby. The table is surrounded by chairs, and there is a TV in the background. The kitchen also features a refriger
+[50 tokens]: A woman is sitting at a dining table in a kitchen, with a potted plant nearby. The table is surrounded by chairs, and there is a TV in the background. The kitchen also features a refrigerator, a clock,

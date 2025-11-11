@@ -1,0 +1,73 @@
+=== Final Results from Full INT8 (Vision + Language); November 11, 14:24 ===
+[
+    {
+        "tokens": 5,
+        "avg_latency": 0.5309383445600008,
+        "throughput": 1.8834578633206835,
+        "num_images": 100,
+        "cider": 0.5581182156268801
+    },
+    {
+        "tokens": 10,
+        "avg_latency": 0.8282524552899986,
+        "throughput": 1.20736134690946,
+        "num_images": 100,
+        "cider": 0.8329868914818477
+    },
+    {
+        "tokens": 15,
+        "avg_latency": 1.1175462134600032,
+        "throughput": 0.8948175815512169,
+        "num_images": 100,
+        "cider": 0.7854593092977872
+    },
+    {
+        "tokens": 20,
+        "avg_latency": 1.3542871323099916,
+        "throughput": 0.7383958513246093,
+        "num_images": 100,
+        "cider": 0.6439484261398037
+    },
+    {
+        "tokens": 25,
+        "avg_latency": 1.4716680981700074,
+        "throughput": 0.6795010377975047,
+        "num_images": 100,
+        "cider": 0.560946320127565
+    },
+    {
+        "tokens": 30,
+        "avg_latency": 1.5306794423999974,
+        "throughput": 0.6533046517120988,
+        "num_images": 100,
+        "cider": 0.5389044264934256
+    },
+    {
+        "tokens": 35,
+        "avg_latency": 1.5709114380299933,
+        "throughput": 0.6365731229597852,
+        "num_images": 100,
+        "cider": 0.5308404532252164
+    },
+    {
+        "tokens": 40,
+        "avg_latency": 1.6056212563999883,
+        "throughput": 0.6228118841937419,
+        "num_images": 100,
+        "cider": 0.5288399131848948
+    },
+    {
+        "tokens": 45,
+        "avg_latency": 1.6261347356499822,
+        "throughput": 0.6149551928735413,
+        "num_images": 100,
+        "cider": 0.5283483644618694
+    },
+    {
+        "tokens": 50,
+        "avg_latency": 1.6461136458799979,
+        "throughput": 0.6074914708974476,
+        "num_images": 100,
+        "cider": 0.5282987081556718
+    }
+]

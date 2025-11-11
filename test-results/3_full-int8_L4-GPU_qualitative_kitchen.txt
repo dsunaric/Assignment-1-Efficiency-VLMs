@@ -1,0 +1,54 @@
+=== Qualitative Results from Full INT8 (Vision + Language); November 11, 14:24 ===
+
+--- Evaluating for max_new_tokens = 5 ---
+Ground truth captions: {139: ['A woman stands in the dining area at the table.', 'A room with chairs, a table, and a woman in it.', 'A woman standing in a kitchen by a window', 'A person standing at a table in a room.', 'A living area with a television and a table']}
+Latency: 0.535 seconds
+Generated caption: A woman is standing in
+
+--- Evaluating for max_new_tokens = 10 ---
+Latency: 0.831 seconds
+Generated caption: A woman is standing in a kitchen, looking out
+
+--- Evaluating for max_new_tokens = 15 ---
+Latency: 1.132 seconds
+Generated caption: A woman is standing in a kitchen, looking out the window. The kitchen
+
+--- Evaluating for max_new_tokens = 20 ---
+Latency: 1.424 seconds
+Generated caption: A woman is standing in a kitchen, looking out the window. The kitchen is well-equipped
+
+--- Evaluating for max_new_tokens = 25 ---
+Latency: 1.722 seconds
+Generated caption: A woman is standing in a kitchen, looking out the window. The kitchen is well-equipped with a refriger
+
+--- Evaluating for max_new_tokens = 30 ---
+Latency: 2.025 seconds
+Generated caption: A woman is standing in a kitchen, looking out the window. The kitchen is well-equipped with a refrigerator, microwave
+
+--- Evaluating for max_new_tokens = 35 ---
+Latency: 2.319 seconds
+Generated caption: A woman is standing in a kitchen, looking out the window. The kitchen is well-equipped with a refrigerator, microwave, oven, and
+
+--- Evaluating for max_new_tokens = 40 ---
+Latency: 2.615 seconds
+Generated caption: A woman is standing in a kitchen, looking out the window. The kitchen is well-equipped with a refrigerator, microwave, oven, and sink. There are also
+
+--- Evaluating for max_new_tokens = 45 ---
+Latency: 2.917 seconds
+Generated caption: A woman is standing in a kitchen, looking out the window. The kitchen is well-equipped with a refrigerator, microwave, oven, and sink. There are also several potted plants and
+
+--- Evaluating for max_new_tokens = 50 ---
+Latency: 3.217 seconds
+Generated caption: A woman is standing in a kitchen, looking out the window. The kitchen is well-equipped with a refrigerator, microwave, oven, and sink. There are also several potted plants and vases placed around the
+
+=== Captions for each token count ===
+[5 tokens]: A woman is standing in
+[10 tokens]: A woman is standing in a kitchen, looking out
+[15 tokens]: A woman is standing in a kitchen, looking out the window. The kitchen
+[20 tokens]: A woman is standing in a kitchen, looking out the window. The kitchen is well-equipped
+[25 tokens]: A woman is standing in a kitchen, looking out the window. The kitchen is well-equipped with a refriger
+[30 tokens]: A woman is standing in a kitchen, looking out the window. The kitchen is well-equipped with a refrigerator, microwave
+[35 tokens]: A woman is standing in a kitchen, looking out the window. The kitchen is well-equipped with a refrigerator, microwave, oven, and
+[40 tokens]: A woman is standing in a kitchen, looking out the window. The kitchen is well-equipped with a refrigerator, microwave, oven, and sink. There are also
+[45 tokens]: A woman is standing in a kitchen, looking out the window. The kitchen is well-equipped with a refrigerator, microwave, oven, and sink. There are also several potted plants and
+[50 tokens]: A woman is standing in a kitchen, looking out the window. The kitchen is well-equipped with a refrigerator, microwave, oven, and sink. There are also several potted plants and vases placed around the

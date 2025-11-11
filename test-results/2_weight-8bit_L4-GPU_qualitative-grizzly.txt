@@ -1,0 +1,54 @@
+=== Qualitative Results from Weight-only INT8; November 11, 13:58 ===
+
+--- Evaluating for max_new_tokens = 5 ---
+Ground truth captions: {285: ['A big burly grizzly bear is show with grass in the background.', 'The large brown bear has a black nose.', 'Closeup of a brown bear sitting in a grassy area.', 'A large bear that is sitting on grass. ', "A close up picture of a brown bear's face."]}
+Latency: 1.058 seconds
+Generated caption: A large brown bear is
+
+--- Evaluating for max_new_tokens = 10 ---
+Latency: 1.728 seconds
+Generated caption: A large brown bear is sitting on the grass,
+
+--- Evaluating for max_new_tokens = 15 ---
+Latency: 2.423 seconds
+Generated caption: A large brown bear is sitting on the grass, looking at the camera.
+
+--- Evaluating for max_new_tokens = 20 ---
+Latency: 2.582 seconds
+Generated caption: A large brown bear is sitting on the grass, looking at the camera.
+
+--- Evaluating for max_new_tokens = 25 ---
+Latency: 2.599 seconds
+Generated caption: A large brown bear is sitting on the grass, looking at the camera.
+
+--- Evaluating for max_new_tokens = 30 ---
+Latency: 2.573 seconds
+Generated caption: A large brown bear is sitting on the grass, looking at the camera.
+
+--- Evaluating for max_new_tokens = 35 ---
+Latency: 2.581 seconds
+Generated caption: A large brown bear is sitting on the grass, looking at the camera.
+
+--- Evaluating for max_new_tokens = 40 ---
+Latency: 2.551 seconds
+Generated caption: A large brown bear is sitting on the grass, looking at the camera.
+
+--- Evaluating for max_new_tokens = 45 ---
+Latency: 2.577 seconds
+Generated caption: A large brown bear is sitting on the grass, looking at the camera.
+
+--- Evaluating for max_new_tokens = 50 ---
+Latency: 2.559 seconds
+Generated caption: A large brown bear is sitting on the grass, looking at the camera.
+
+=== Captions for each token count ===
+[5 tokens]: A large brown bear is
+[10 tokens]: A large brown bear is sitting on the grass,
+[15 tokens]: A large brown bear is sitting on the grass, looking at the camera.
+[20 tokens]: A large brown bear is sitting on the grass, looking at the camera.
+[25 tokens]: A large brown bear is sitting on the grass, looking at the camera.
+[30 tokens]: A large brown bear is sitting on the grass, looking at the camera.
+[35 tokens]: A large brown bear is sitting on the grass, looking at the camera.
+[40 tokens]: A large brown bear is sitting on the grass, looking at the camera.
+[45 tokens]: A large brown bear is sitting on the grass, looking at the camera.
+[50 tokens]: A large brown bear is sitting on the grass, looking at the camera.

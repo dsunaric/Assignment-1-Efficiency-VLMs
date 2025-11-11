@@ -1,0 +1,54 @@
+=== Qualitative Results from FP16 (Baseline); November 11, 12:10 ===
+
+--- Evaluating for max_new_tokens = 5 ---
+Ground truth captions: {724: ["A stop sign is mounted upside-down on it's post. ", 'A stop sign that is hanging upside down.', 'An upside down stop sign by the road.', 'a stop sign put upside down on a metal pole ', 'A stop sign installed upside down on a street corner']}
+Latency: 0.434 seconds
+Generated caption: A stop sign is ups
+
+--- Evaluating for max_new_tokens = 10 ---
+Latency: 0.732 seconds
+Generated caption: A stop sign is upside down, with the
+
+--- Evaluating for max_new_tokens = 15 ---
+Latency: 1.038 seconds
+Generated caption: A stop sign is upside down, with the word "STOP"
+
+--- Evaluating for max_new_tokens = 20 ---
+Latency: 1.276 seconds
+Generated caption: A stop sign is upside down, with the word "STOP" written backwards.
+
+--- Evaluating for max_new_tokens = 25 ---
+Latency: 1.276 seconds
+Generated caption: A stop sign is upside down, with the word "STOP" written backwards.
+
+--- Evaluating for max_new_tokens = 30 ---
+Latency: 1.276 seconds
+Generated caption: A stop sign is upside down, with the word "STOP" written backwards.
+
+--- Evaluating for max_new_tokens = 35 ---
+Latency: 1.277 seconds
+Generated caption: A stop sign is upside down, with the word "STOP" written backwards.
+
+--- Evaluating for max_new_tokens = 40 ---
+Latency: 1.278 seconds
+Generated caption: A stop sign is upside down, with the word "STOP" written backwards.
+
+--- Evaluating for max_new_tokens = 45 ---
+Latency: 1.278 seconds
+Generated caption: A stop sign is upside down, with the word "STOP" written backwards.
+
+--- Evaluating for max_new_tokens = 50 ---
+Latency: 1.278 seconds
+Generated caption: A stop sign is upside down, with the word "STOP" written backwards.
+
+=== Captions for each token count ===
+[5 tokens]: A stop sign is ups
+[10 tokens]: A stop sign is upside down, with the
+[15 tokens]: A stop sign is upside down, with the word "STOP"
+[20 tokens]: A stop sign is upside down, with the word "STOP" written backwards.
+[25 tokens]: A stop sign is upside down, with the word "STOP" written backwards.
+[30 tokens]: A stop sign is upside down, with the word "STOP" written backwards.
+[35 tokens]: A stop sign is upside down, with the word "STOP" written backwards.
+[40 tokens]: A stop sign is upside down, with the word "STOP" written backwards.
+[45 tokens]: A stop sign is upside down, with the word "STOP" written backwards.
+[50 tokens]: A stop sign is upside down, with the word "STOP" written backwards.

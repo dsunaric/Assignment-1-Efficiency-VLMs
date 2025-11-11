@@ -1,0 +1,73 @@
+=== Final Results from Weight-only INT8; November 11, 13:58 ===
+[
+    {
+        "tokens": 5,
+        "avg_latency": 0.9824924279900006,
+        "throughput": 1.0178195490481456,
+        "num_images": 100,
+        "cider": 0.5730073215671885
+    },
+    {
+        "tokens": 10,
+        "avg_latency": 1.716276472530003,
+        "throughput": 0.5826567082900558,
+        "num_images": 100,
+        "cider": 0.8410764976734292
+    },
+    {
+        "tokens": 15,
+        "avg_latency": 2.4079528506300063,
+        "throughput": 0.4152905235409258,
+        "num_images": 100,
+        "cider": 0.8100504689781686
+    },
+    {
+        "tokens": 20,
+        "avg_latency": 2.9135520022899892,
+        "throughput": 0.3432236662376445,
+        "num_images": 100,
+        "cider": 0.6915624675952593
+    },
+    {
+        "tokens": 25,
+        "avg_latency": 3.122165100459986,
+        "throughput": 0.32029055729713685,
+        "num_images": 100,
+        "cider": 0.6265913105845355
+    },
+    {
+        "tokens": 30,
+        "avg_latency": 3.2438716019400045,
+        "throughput": 0.3082736071926977,
+        "num_images": 100,
+        "cider": 0.6108017742031088
+    },
+    {
+        "tokens": 35,
+        "avg_latency": 3.305193531759974,
+        "throughput": 0.3025541440738306,
+        "num_images": 100,
+        "cider": 0.6060606779177373
+    },
+    {
+        "tokens": 40,
+        "avg_latency": 3.389114156339979,
+        "throughput": 0.29506235372134365,
+        "num_images": 100,
+        "cider": 0.6050594795646581
+    },
+    {
+        "tokens": 45,
+        "avg_latency": 3.4334026604700103,
+        "throughput": 0.2912562547682964,
+        "num_images": 100,
+        "cider": 0.6047548263281616
+    },
+    {
+        "tokens": 50,
+        "avg_latency": 3.470826017980012,
+        "throughput": 0.28811585335008827,
+        "num_images": 100,
+        "cider": 0.6047334743193904
+    }
+]
