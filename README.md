@@ -8,9 +8,6 @@ We evaluate model quality, efficiency, and energy consumption under different qu
 
 Our goal is to measure the trade-offs between model performance (CIDEr) and computational efficiency (e.g., VRAM usage, latency, throughput) across varying precision levels.
 
-## Table of contents (maybe delete this section)
-TODO
-
 ## 2. Experiment Config
 ### 2.1. Specs
 Runtime: Google Colab Pro (T4 GPU, 15 GB VRAM) with Python 3.12.12
