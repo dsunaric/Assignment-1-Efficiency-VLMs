@@ -1,6 +1,6 @@
 # experiment_config.yaml
 # Configuration file for "Evaluating Efficient Vision Language Models (VLMs)"
-# TU Wien - Introduction to Computational Sustainability, WS 2025
+# TU Wien - Introduction to Computational Sustainability, WS 2025; Group 15
 
 project:
   name: "Evaluating Efficient Vision Language Models (VLMs)"
