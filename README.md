@@ -68,10 +68,3 @@ Image preprocessing: no preprocessing needed, all images sizes in the Coco val 2
 ### 2.7. Hyper-Parameters
 No hyper-parameters were used other than the parameters for quantization, which are explained in the experiments section.
 
-## 3. Repository Structure
-├── [Baseline-FP16-Comp-Sust-assignment1.ipynb](TODO)
-├── [8Bit-Only-Comp-Sust-assignment1.ipynb](TODO)
-├── [Quant-INT8-Comp-Sust-assignment1.ipynb](TODO)
-├── [Results-Analysis.ipynb](TODO)
-├── experiment_config.yaml
-└── README.md
