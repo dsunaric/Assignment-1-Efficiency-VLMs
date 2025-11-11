@@ -72,5 +72,4 @@ Subset indices: first 100 images (subset 1-100)
 Image preprocessing: no preprocessing needed, all images sizes in the Coco val 2017 dataset are smaller than 1024px (for comparability)
 
 ### 2.7. Hyper-Parameters
-No hyper-parameters were used other than the parameters for quantization, which are explained in the experiments section.
-
+Max token counts used: 5-10-15-20-25-30-35-40-45-50
