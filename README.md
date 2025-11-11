@@ -30,7 +30,7 @@ Our project consistes of three different experiences:
    - This adjustment does not reduce the size of the model.
 
 For each of these three experiments, we calculated the following metrics
-- **Quality: CIDEr score (most important)**
+- Quality: CIDEr score
     - The CIDEr Score is widely used for benchmarking image descriptions.
     - [Paper: "CIDEr: Consensus-based Image Description Evaluation"](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf)
 - Efficiency: VRAM, latency per image, throughput, model size
