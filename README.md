@@ -14,12 +14,18 @@ Runtime: Google Colab Pro (T4 GPU, 15 GB VRAM) with Python 3.12.12
 
 ### 2.2. Experiment setup
 Our project consistes of three different experiences:
-1. Baseline FP16 model, [source code in Google Colab](https://colab.research.google.com/drive/1B_Fx7Wp7Eza_O8QZClDg8-R1Z033BlnE?usp=sharing)
+1. Baseline FP16 model:
+   - [Source Code in Google Colab](https://colab.research.google.com/drive/1B_Fx7Wp7Eza_O8QZClDg8-R1Z033BlnE?usp=sharing)
+   - [Source Code Notebook File](Exp1_FP16_Comp_Sust_assignment1.ipynb)
    - Normal configuration without any further adjustments
-3. Weight-only 8-bit, [source code in Google Colab](https://colab.research.google.com/drive/1WtK9vDrSsb6iOyisC0QKNbG8-_8KvsBd?usp=sharing)
+3. Weight-only 8-bit:
+   - [Source Code in Google Colab](https://colab.research.google.com/drive/1WtK9vDrSsb6iOyisC0QKNbG8-_8KvsBd?usp=sharing)
+   - [Source Code Notebook File](Exp2_8Bit_Only_Comp_Sust_assignment1.ipynb)
    - This configuration quantizes only the attention and MLP weights to INT8 (using BitsAndBytes) while keeping activations and the vision tower in FP16
    - This adjustment reduces model size and therefore memory usage by 50%
-4. Quantized vision tower to INT8, [source code in Google Colab](https://colab.research.google.com/drive/1zjTEqyJk8DRfc8iG29zNU0QBCbUsMQvB?usp=sharing)
+5. Quantized vision tower to INT8:
+   - [Source Code in Google Colab](https://colab.research.google.com/drive/1zjTEqyJk8DRfc8iG29zNU0QBCbUsMQvB?usp=sharing)
+   - [Source Code Notebook File](Exp3_Quant_INT8_Comp_Sust_assignment1.ipynb)
    - This configuration quantizes only the vision tower to INT8 (using BitsAndBytes)
    - This adjustment does not reduce the size of the model.
 
